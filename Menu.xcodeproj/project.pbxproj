@@ -17,6 +17,7 @@
 		6FE6BF572C57701100240506 /* MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6BF562C57701100240506 /* MenuTests.swift */; };
 		6FE6BF612C57701100240506 /* MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6BF602C57701100240506 /* MenuUITests.swift */; };
 		6FE6BF632C57701100240506 /* MenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6BF622C57701100240506 /* MenuUITestsLaunchTests.swift */; };
+		6FEEA7152C63949E001F41B7 /* DishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEEA7142C63949E001F41B7 /* DishesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6FE6BF5C2C57701100240506 /* MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE6BF602C57701100240506 /* MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUITests.swift; sourceTree = "<group>"; };
 		6FE6BF622C57701100240506 /* MenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FEEA7142C63949E001F41B7 /* DishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				6FE6BF3C2C57701000240506 /* AppDelegate.swift */,
 				6FE6BF3E2C57701000240506 /* SceneDelegate.swift */,
 				6FE6BF402C57701000240506 /* ViewController.swift */,
+				6FEEA7142C63949E001F41B7 /* DishesViewController.swift */,
 				6FE6BF422C57701000240506 /* Main.storyboard */,
 				6FE6BF482C57701100240506 /* Assets.xcassets */,
 				6FE6BF4A2C57701100240506 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEEA7152C63949E001F41B7 /* DishesViewController.swift in Sources */,
 				6FE6BF412C57701000240506 /* ViewController.swift in Sources */,
 				6FE6BF3D2C57701000240506 /* AppDelegate.swift in Sources */,
 				6FE6BF472C57701000240506 /* Menu.xcdatamodeld in Sources */,
@@ -454,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,6 +487,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

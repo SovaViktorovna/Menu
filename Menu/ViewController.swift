@@ -8,12 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var menuButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func didTapMenuButton(_ sender: Any) {
+        performSegue(withIdentifier: "goToMenu", sender: nil)
+    }
 }
 
